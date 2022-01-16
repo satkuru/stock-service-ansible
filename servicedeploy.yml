@@ -1,5 +1,5 @@
 
-- hosts: webservers 
+- hosts: appservers 
   become: True
   tasks:
      - name: Fetch Java version
